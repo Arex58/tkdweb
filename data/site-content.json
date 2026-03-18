@@ -9,6 +9,12 @@
       "linkUrl": "trial.html"
     },
     {
+      "featured": true,
+      "title": "Belt Ceramony",
+      "summary": "This friday from 5 to 6 we have belt ceromony bring full uniform",
+      "label": "3-18-2026"
+    },
+    {
       "label": "3-13-2026",
       "title": "Upcoming Belt Test",
       "summary": "March 15th is the next belt test. Make sure to review the requirements and practice your forms!"
@@ -17,12 +23,6 @@
       "label": "3-16-2026",
       "title": "Picture Day",
       "summary": "Don't forget to dress in your uniform and be ready for photos on March 31st. Capture memories of your progress and achievements!"
-    },
-    {
-      "featured": true,
-      "title": "Belt Ceramony",
-      "summary": "This friday from 5 to 6 we have belt ceromony bring full uniform",
-      "label": "3-18-2026"
     }
   ],
   "gallery": [
