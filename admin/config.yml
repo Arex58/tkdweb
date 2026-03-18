@@ -1,10 +1,12 @@
 backend:
   name: github
-  repo: YOUR-GITHUB-USERNAME/YOUR-REPO-NAME
+  repo: arex58/tkdweb
   branch: main
 
 media_folder: "images/uploads"
 public_folder: "images/uploads"
+site_url: "https://arex58.github.io/tkdweb/"
+display_url: "https://arex58.github.io/tkdweb/"
 
 collections:
   - name: "site_content"
