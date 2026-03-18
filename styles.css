@@ -940,23 +940,28 @@ body.lightbox-open {
   margin-top: 2rem;
 }
 
+.teacher-feature {
+  align-items: start;
+}
+
 .teacher-feature-image {
   max-width: 520px;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 1rem;
+  align-self: start;
+  padding: 0.75rem;
   background: var(--white);
+  border-radius: var(--radius-lg);
 }
 
 .teacher-feature-image img {
   width: 100%;
-  height: 620px;
-  min-height: 0;
-  max-height: none;
+  height: auto;
+  display: block;
   object-fit: contain;
-  object-position: center center;
-  border-radius: calc(var(--radius-lg) - 6px);
+  object-position: center;
+  border-radius: 28px;
   background: #f6f7fb;
 }
 
@@ -964,6 +969,7 @@ body.lightbox-open {
   .teacher-feature-image {
     max-width: 100%;
   }
+}
 
   .teacher-feature-image img {
     height: 520px;
