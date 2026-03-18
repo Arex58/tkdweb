@@ -1,0 +1,175 @@
+{
+  "news": [
+    {
+      "featured": true,
+      "label": "Now Enrolling",
+      "title": "Free Trial Classes Available",
+      "summary": "Invite new students to try a class, meet the instructors, and experience the academy.",
+      "linkText": "Ask About A Trial",
+      "linkUrl": "trial.html"
+    },
+    {
+      "label": "3-13-2026",
+      "title": "Upcoming Belt Test",
+      "summary": "March 15th is the next belt test. Make sure to review the requirements and practice your forms!"
+    },
+    {
+      "label": "3-16-2026",
+      "title": "Picture Day",
+      "summary": "Don't forget to dress in your uniform and be ready for photos on March 31st. Capture memories of your progress and achievements!"
+    }
+  ],
+  "gallery": [
+    {
+      "featured": true,
+      "title": "Board Breaking Demonstration",
+      "image": "Testing3.jpg",
+      "alt": "Board breaking demonstration"
+    },
+    {
+      "title": "Students Lined Up In Class",
+      "image": "Testing4.jpg",
+      "alt": "Students lined up in front of the instructor"
+    },
+    {
+      "title": "Families At The Academy",
+      "image": "Testing5.jpg",
+      "alt": "Families and students gathered for class"
+    },
+    {
+      "title": "Kick Training",
+      "image": "Testing2.jpg",
+      "alt": "Student performing a kick during training"
+    },
+    {
+      "title": "Group Photo",
+      "image": "BC1.jpg",
+      "alt": "Group photo"
+    },
+    {
+      "title": "Group Photo Two",
+      "image": "BC2.jpg",
+      "alt": "Group photo 2"
+    },
+    {
+      "title": "Group Photo Three",
+      "image": "BC3.jpg",
+      "alt": "Group photo 3"
+    },
+    {
+      "title": "Anniversary Stage Trophy",
+      "image": "anniversary-01-group-stage-trophy.jpg",
+      "alt": "Anniversary group photo 1"
+    },
+    {
+      "title": "Cake Cutting Closeup",
+      "image": "anniversary-02-cake-cutting-closeup.jpg",
+      "alt": "Cake cutting close-up"
+    },
+    {
+      "title": "Cake Cutting Group",
+      "image": "anniversary-03-cake-cutting-group.jpg",
+      "alt": "Cake cutting group photo"
+    },
+    {
+      "title": "Cake Cutting Side Angle",
+      "image": "anniversary-04-cake-cutting-side-angle.jpg",
+      "alt": "Cake cutting side angle"
+    },
+    {
+      "title": "Frosting Fun",
+      "image": "anniversary-05-frosting-fun-boys.jpg",
+      "alt": "Frosting fun photo"
+    },
+    {
+      "title": "Frosting Fun Group",
+      "image": "anniversary-06-frosting-fun-group.jpg",
+      "alt": "Frosting fun group"
+    },
+    {
+      "title": "Students With Frosting",
+      "image": "anniversary-07-students-with-frosting.jpg",
+      "alt": "Students with frosting"
+    },
+    {
+      "title": "Blue Uniform Frosting",
+      "image": "anniversary-08-frosting-blue-uniform.jpg",
+      "alt": "Blue uniform frosting photo"
+    },
+    {
+      "title": "Dojo Group Photo",
+      "image": "anniversary-09-group-photo-dojo.jpg",
+      "alt": "Dojo group photo"
+    },
+    {
+      "title": "Fighting Pose",
+      "image": "anniversary-10-group-fighting-pose.jpg",
+      "alt": "Group fighting pose"
+    },
+    {
+      "title": "Belt Ceremony",
+      "image": "anniversary-11-belt-ceremony-girl-bow.jpg",
+      "alt": "Belt ceremony girl bow"
+    },
+    {
+      "title": "Belt Ceremony Bow",
+      "image": "anniversary-12-belt-ceremony-boy-bow.jpg",
+      "alt": "Belt ceremony boy bow"
+    },
+    {
+      "title": "White Uniform Ceremony",
+      "image": "anniversary-13-belt-ceremony-white-uniform-bow.jpg",
+      "alt": "White uniform bow ceremony"
+    },
+    {
+      "title": "Belt Ceremony Rise",
+      "image": "anniversary-14-belt-ceremony-rise.jpg",
+      "alt": "Belt ceremony rise"
+    },
+    {
+      "title": "Awards Group",
+      "image": "anniversary-15-awards-group-trophies.jpg",
+      "alt": "Awards group with trophies"
+    },
+    {
+      "title": "Family Stage Trophy",
+      "image": "anniversary-16-family-stage-trophy-boy.jpg",
+      "alt": "Family stage trophy photo"
+    },
+    {
+      "title": "Family Trophy Girl",
+      "image": "anniversary-17-family-stage-trophy-girl.jpg",
+      "alt": "Family stage trophy girl"
+    },
+    {
+      "title": "Family Group Trophy",
+      "image": "anniversary-18-family-group-stage-trophy.jpg",
+      "alt": "Family group stage trophy"
+    },
+    {
+      "title": "Brick Break Prep",
+      "image": "anniversary-19-brick-break-prep.jpg",
+      "alt": "Brick break preparation"
+    },
+    {
+      "title": "California Open",
+      "image": "california open.jpg",
+      "alt": "California Open"
+    },
+    {
+      "title": "Chuck Norris Visit",
+      "image": "chuck norris.jpg",
+      "alt": "Chuck Norris"
+    },
+    {
+      "title": "Ultimate Taekwondo Academy",
+      "image": "utkd.jpg",
+      "alt": "Ultimate Taekwondo Academy"
+    },
+    {
+      "title": "Scissors Kick",
+      "image": "scissors.jpg",
+      "alt": "Scissors kick"
+    }
+  ]
+}

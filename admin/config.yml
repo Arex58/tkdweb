@@ -1,0 +1,37 @@
+backend:
+  name: github
+  repo: YOUR-GITHUB-USERNAME/YOUR-REPO-NAME
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "images/uploads"
+
+collections:
+  - name: "site_content"
+    label: "Website Content"
+    files:
+      - label: "News And Gallery"
+        name: "site_content"
+        file: "data/site-content.json"
+        fields:
+          - label: "News / Upcoming Events"
+            name: "news"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Featured Card", name: "featured", widget: "boolean", required: false, default: false }
+              - { label: "Top Label", name: "label", widget: "string", hint: "Examples: Now Enrolling, 3-13-2026" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Summary", name: "summary", widget: "text" }
+              - { label: "Button Text", name: "linkText", widget: "string", required: false }
+              - { label: "Button Link", name: "linkUrl", widget: "string", required: false }
+
+          - label: "Gallery Photos"
+            name: "gallery"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Featured Large Photo", name: "featured", widget: "boolean", required: false, default: false }
+              - { label: "Photo Title", name: "title", widget: "string", required: false }
+              - { label: "Image", name: "image", widget: "image" }
+              - { label: "Alt Text", name: "alt", widget: "string" }
