@@ -1,6 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
   const siteHeader = document.querySelector(".site-header");
   const menuToggle = document.querySelector(".menu-toggle");
+  const siteNav = document.getElementById("site-nav");
+  const navLinks = siteNav ? siteNav.querySelectorAll("a") : [];
   const heroSlides = document.querySelectorAll(".hero-slide");
   const galleryGrid = document.getElementById("galleryGrid");
   const newsGrid = document.getElementById("newsGrid");
@@ -11,12 +13,52 @@ document.addEventListener("DOMContentLoaded", () => {
   const lightboxBackdrop = document.querySelector(".lightbox-backdrop");
   let activeSlideIndex = 0;
 
-  if (siteHeader && menuToggle) {
+  function closeMobileMenu() {
+    if (!siteHeader || !menuToggle) return;
+    siteHeader.classList.remove("nav-open");
+    menuToggle.setAttribute("aria-expanded", "false");
+    menuToggle.setAttribute("aria-label", "Open navigation");
+  }
+
+  function openMobileMenu() {
+    if (!siteHeader || !menuToggle) return;
+    siteHeader.classList.add("nav-open");
+    menuToggle.setAttribute("aria-expanded", "true");
+    menuToggle.setAttribute("aria-label", "Close navigation");
+  }
+
+  if (menuToggle && siteHeader) {
     menuToggle.addEventListener("click", () => {
-      const isOpen = siteHeader.classList.toggle("nav-open");
-      menuToggle.setAttribute("aria-expanded", String(isOpen));
+      const isOpen = siteHeader.classList.contains("nav-open");
+      if (isOpen) {
+        closeMobileMenu();
+      } else {
+        openMobileMenu();
+      }
     });
   }
+
+  navLinks.forEach((link) => {
+    link.addEventListener("click", () => {
+      closeMobileMenu();
+    });
+  });
+
+  document.addEventListener("click", (event) => {
+    if (!siteHeader || !menuToggle || !siteNav) return;
+    if (window.innerWidth > 1180) return;
+
+    const clickedInsideHeader = siteHeader.contains(event.target);
+    if (!clickedInsideHeader) {
+      closeMobileMenu();
+    }
+  });
+
+  window.addEventListener("resize", () => {
+    if (window.innerWidth > 1180) {
+      closeMobileMenu();
+    }
+  });
 
   function showNextSlide() {
     if (heroSlides.length <= 1) return;
@@ -159,8 +201,11 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   document.addEventListener("keydown", (event) => {
-    if (event.key === "Escape" && lightbox && lightbox.classList.contains("is-open")) {
-      closeLightbox();
+    if (event.key === "Escape") {
+      if (lightbox && lightbox.classList.contains("is-open")) {
+        closeLightbox();
+      }
+      closeMobileMenu();
     }
   });
 
