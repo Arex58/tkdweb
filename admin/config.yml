@@ -4,7 +4,7 @@ backend:
   branch: main
 
 media_folder: "images/uploads"
-public_folder: "images/uploads"
+public_folder: "/images/uploads"
 site_url: "https://arex58.github.io/tkdweb/"
 display_url: "https://arex58.github.io/tkdweb/"
 
@@ -37,3 +37,4 @@ collections:
               - { label: "Photo Title", name: "title", widget: "string", required: false }
               - { label: "Image", name: "image", widget: "image" }
               - { label: "Alt Text", name: "alt", widget: "string" }
+
