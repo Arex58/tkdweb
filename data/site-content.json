@@ -4,166 +4,176 @@
       "featured": true,
       "label": "Now Enrolling",
       "title": "Free Trial Classes Available",
-      "summary": "Invite new students to try a class, meet the instructors, and experience the academy.",
-      "linkText": "Ask About A Trial",
+      "summary": "Invite new students to try a class, meet the instructors, and experience the academy in person.",
+      "linkText": "Start A Free Trial",
       "linkUrl": "trial.html"
     },
     {
       "featured": false,
-      "label": "pic",
-      "title": "day of pics",
-      "summary": "pics day"
+      "label": "Academy Calendar",
+      "title": "View Important Dates Early",
+      "summary": "Check testing days, ceremonies, holiday closures, and other academy events in one place.",
+      "linkText": "Open Calendar",
+      "linkUrl": "utkda-calendar-2026.pdf"
+    },
+    {
+      "featured": false,
+      "label": "Student Reminder",
+      "title": "Come Ready For Class",
+      "summary": "Please arrive with your uniform, belt, water bottle, and any required sparring gear so class can begin on time.",
+      "linkText": "See Student Hub",
+      "linkUrl": "student-hub.html"
     }
   ],
   "gallery": [
     {
       "featured": true,
-      "title": "",
+      "title": "Board Breaking",
       "image": "Testing3.jpg",
       "alt": "Board breaking demonstration"
     },
     {
-      "title": "",
+      "title": "Class Lineup",
       "image": "Testing4.jpg",
       "alt": "Students lined up in front of the instructor"
     },
     {
-      "title": "",
+      "title": "Academy Moments",
       "image": "Testing5.jpg",
       "alt": "Families and students gathered for class"
     },
     {
-      "title": "",
+      "title": "Training Kick",
       "image": "Testing2.jpg",
       "alt": "Student performing a kick during training"
     },
     {
-      "title": "",
+      "title": "Group Photo",
       "image": "BC1.jpg",
       "alt": "Group photo"
     },
     {
-      "title": "",
+      "title": "Academy Family",
       "image": "BC2.jpg",
       "alt": "Group photo 2"
     },
     {
-      "title": "",
+      "title": "Celebration",
       "image": "BC3.jpg",
       "alt": "Group photo 3"
     },
     {
-      "title": "",
+      "title": "Anniversary Event",
       "image": "anniversary-01-group-stage-trophy.jpg",
-      "alt": "Anniversary group photo 1"
+      "alt": "Anniversary group photo on stage with trophies"
     },
     {
-      "title": "",
+      "title": "Cake Celebration",
       "image": "anniversary-02-cake-cutting-closeup.jpg",
       "alt": "Cake cutting close-up"
     },
     {
-      "title": "",
+      "title": "Cake Cutting",
       "image": "anniversary-03-cake-cutting-group.jpg",
       "alt": "Cake cutting group photo"
     },
     {
-      "title": "",
+      "title": "Anniversary Day",
       "image": "anniversary-04-cake-cutting-side-angle.jpg",
       "alt": "Cake cutting side angle"
     },
     {
-      "title": "",
+      "title": "Fun Moments",
       "image": "anniversary-05-frosting-fun-boys.jpg",
-      "alt": "Frosting fun photo"
+      "alt": "Students having frosting fun"
     },
     {
-      "title": "",
+      "title": "Team Fun",
       "image": "anniversary-06-frosting-fun-group.jpg",
-      "alt": "Frosting fun group"
+      "alt": "Group having fun during anniversary event"
     },
     {
-      "title": "",
+      "title": "Students",
       "image": "anniversary-07-students-with-frosting.jpg",
-      "alt": "Students with frosting"
+      "alt": "Students smiling with frosting"
     },
     {
-      "title": "",
+      "title": "Event Highlights",
       "image": "anniversary-08-frosting-blue-uniform.jpg",
-      "alt": "Blue uniform frosting photo"
+      "alt": "Blue uniform anniversary photo"
     },
     {
-      "title": "",
+      "title": "Dojo Group",
       "image": "anniversary-09-group-photo-dojo.jpg",
       "alt": "Dojo group photo"
     },
     {
-      "title": "",
+      "title": "Fighting Pose",
       "image": "anniversary-10-group-fighting-pose.jpg",
       "alt": "Group fighting pose"
     },
     {
-      "title": "",
+      "title": "Belt Ceremony",
       "image": "anniversary-11-belt-ceremony-girl-bow.jpg",
       "alt": "Belt ceremony girl bow"
     },
     {
-      "title": "",
+      "title": "Respect & Tradition",
       "image": "anniversary-12-belt-ceremony-boy-bow.jpg",
       "alt": "Belt ceremony boy bow"
     },
     {
-      "title": "",
+      "title": "Ceremony",
       "image": "anniversary-13-belt-ceremony-white-uniform-bow.jpg",
       "alt": "White uniform bow ceremony"
     },
     {
-      "title": "",
+      "title": "Promotion Day",
       "image": "anniversary-14-belt-ceremony-rise.jpg",
-      "alt": "Belt ceremony rise"
+      "alt": "Students rising during belt ceremony"
     },
     {
-      "title": "",
+      "title": "Awards",
       "image": "anniversary-15-awards-group-trophies.jpg",
       "alt": "Awards group with trophies"
     },
     {
-      "title": "",
+      "title": "Proud Moment",
       "image": "anniversary-16-family-stage-trophy-boy.jpg",
       "alt": "Family stage trophy photo"
     },
     {
-      "title": "",
+      "title": "Achievement",
       "image": "anniversary-17-family-stage-trophy-girl.jpg",
       "alt": "Family stage trophy girl"
     },
     {
-      "title": "",
+      "title": "Family Support",
       "image": "anniversary-18-family-group-stage-trophy.jpg",
       "alt": "Family group stage trophy"
     },
     {
-      "title": "",
+      "title": "Breaking Demo",
       "image": "anniversary-19-brick-break-prep.jpg",
       "alt": "Brick break preparation"
     },
     {
-      "title": "",
+      "title": "Tournament",
       "image": "california open.jpg",
-      "alt": "California Open"
+      "alt": "California Open tournament"
     },
     {
-      "title": "Chuck Norris Visit",
-      "image": "images/uploads/master-lee.jpg",
-      "alt": "Chuck Norris"
+      "title": "Special Guest",
+      "image": "chuck norris.jpg",
+      "alt": "Chuck Norris visit"
     },
     {
-      "title": "",
+      "title": "Academy",
       "image": "utkd.jpg",
-      "alt": "Ultimate Taekwondo Academy"
+      "alt": "Ultimate Taekwondo Academy group photo"
     },
     {
-      "title": "",
+      "title": "Action Shot",
       "image": "scissors.jpg",
       "alt": "Scissors kick"
     }
