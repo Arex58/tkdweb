@@ -4,33 +4,26 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ultimate Taekwondo Academy | Burbank</title>
-  <meta
-    name="description"
-    content="Ultimate Taekwondo Academy in Burbank. Family-friendly classes, discipline, confidence, and competition training."
-  />
+  <meta name="description" content="Family-friendly Taekwondo classes in Burbank focused on discipline, confidence, strong fundamentals, and competition-ready instruction." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
-    rel="stylesheet"
-  />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <!-- Top red bar -->
+  <a class="skip-link" href="#main-content">Skip to content</a>
   <div class="top-strip">
     <div class="container top-strip-inner">
       <p class="top-strip-message">Sign Up For A FREE Trial Taekwondo Class!</p>
       <div class="top-strip-links">
-        <span class="top-strip-phone">818-567-1234</span>
+        <a href="tel:8185671234">818-567-1234</a>
+        <a href="mailto:UltimateBurbank@gmail.com">UltimateBurbank@gmail.com</a>
       </div>
     </div>
   </div>
-
-  <!-- Header -->
   <header class="site-header" id="top">
     <div class="container header-row">
-      <a class="site-brand" href="#top" aria-label="Ultimate TaeKwonDo Academy home">
+      <a class="site-brand" href="index.html" aria-label="Ultimate TaeKwonDo Academy home">
         <img src="utkdlogo.png" alt="Ultimate TaeKwonDo Academy logo" />
         <div class="site-brand-text">
           <span class="site-brand-name">Ultimate TaeKwonDo Academy</span>
@@ -51,180 +44,138 @@
       </button>
 
       <nav class="site-nav" id="site-nav">
-        <a href="#about">About</a>
-        <a href="#programs">Programs</a>
-        <a href="#teachers">Teachers</a>
-        <a href="#schedule">Schedule</a>
-        <a href="#gallery">Gallery</a>
-        <a href="#events">Events</a>
-        <a href="#contact">Contact</a>
+        <a href="index.html#about" class="active">About</a>
+        <a href="index.html#programs">Programs</a>
+        <a href="teachers.html">Teachers</a>
+        <a href="schedule.html">Schedule</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="student-hub.html">Student Hub</a>
       </nav>
 
       <div class="header-actions">
-        <a class="btn btn-outline" href="#schedule">Schedule</a>
-        <a class="btn btn-primary" href="#contact">Contact Us</a>
-        <a class="btn btn-outline" href="#events">Upcoming Events</a>
+        <a class="btn btn-primary" href="trial.html">Free Trial</a>
+        <a class="btn btn-outline" href="index.html#contact">Contact</a>
       </div>
     </div>
   </header>
 
-  <main>
-    <!-- Hero -->
-    <section class="hero" id="hero">
+  <main id="main-content">
+    <section class="hero">
       <div class="hero-slides" aria-hidden="true">
         <img class="hero-slide is-active" src="utkd2.jpg" alt="Student performing a kick" />
         <img class="hero-slide" src="Testing3.jpg" alt="Board breaking demonstration" />
         <img class="hero-slide" src="Testing4.jpg" alt="Students lined up in class" />
         <img class="hero-slide" src="Testing5.jpg" alt="Families watching a Taekwondo event" />
-        <img class="hero-slide" src="Testing2.jpg" alt="Student performing a kick" />
+        <img class="hero-slide" src="Testing2.jpg" alt="Student training on the mat" />
       </div>
       <div class="hero-overlay"></div>
 
       <div class="container hero-content-wrap">
         <div class="hero-content">
-          <p class="eyebrow hero-eyebrow">Perseverance • Discipline • Confidence</p>
-          <h1>Ultimate TaeKwonDo Academy</h1>
+          <p class="eyebrow eyebrow-light">Perseverance • Discipline • Confidence</p>
+          <h1>Train With Heart. Grow With Purpose.</h1>
           <p class="hero-text">
-            Family-friendly Taekwondo training in Burbank with strong fundamentals,
-            character development, and competition-ready instruction.
+            Ultimate TaeKwonDo Academy is a family-centered school in Burbank where kids, teens,
+            and adults build confidence, respect, discipline, and real Taekwondo fundamentals in a
+            positive training environment.
           </p>
           <div class="hero-actions">
-            <a href="trial.html" target="_blank" rel="noopener" class="btn btn-primary">
-                One Free Class Form
-          </a>
-            <a class="btn btn-glass btn-large" href="#gallery">View Photos</a>
+            <a class="btn btn-primary btn-large" href="trial.html">Start Your Free Class</a>
+            <a class="btn btn-glass btn-large" href="schedule.html">See Class Schedule</a>
           </div>
         </div>
 
-        <div class="hero-notice-card">
+        <aside class="hero-notice-card">
           <p class="notice-label">Current Special</p>
           <h2>Celebrate 30 Years With Us</h2>
           <p>
-            Join the academy and take advantage of a special intro offer for new students.
+            Ask about intro offers for new students, beginner-friendly class options, and the best class
+            placement for your age and experience level.
           </p>
           <a class="btn btn-primary" href="#special-offer">See Offer</a>
+        </aside>
+      </div>
+    </section>
+
+    <section class="stats-strip">
+      <div class="container">
+        <div class="stats-grid">
+          <article class="stat-card">
+            <strong>30+</strong>
+            <span>Years serving students and families</span>
+          </article>
+          <article class="stat-card">
+            <strong>Kids–Adults</strong>
+            <span>Programs for all ages and experience levels</span>
+          </article>
+          <article class="stat-card">
+            <strong>Beginner Friendly</strong>
+            <span>Supportive first steps for brand-new students</span>
+          </article>
+          <article class="stat-card">
+            <strong>Competition Ready</strong>
+            <span>Training that also supports tournament goals</span>
+          </article>
         </div>
       </div>
     </section>
 
-    <!-- About -->
     <section class="section section-light" id="about">
-      <div class="container narrow center-text">
-        <p class="eyebrow">Welcome To</p>
-        <h2>Martial Arts Training With Heart</h2>
-        <p class="lead-text">
-          Ultimate Taekwondo Academy is a family-run school in Burbank focused on
-          helping students grow stronger, more disciplined, and more confident on and off the mat.
-          We welcome beginners, experienced students, kids, teens, and adults.
-        </p>
-      </div>
-    </section>
-
-    <!-- TEACHERS -->
-<section class="section section-light" id="teachers">
-  <div class="container">
-    <div class="section-heading center-text">
-      <p class="eyebrow">Our Instructors</p>
-      <h2>Meet The Teachers</h2>
-      <p class="section-subtitle">
-        Our instructors bring years of training, leadership, and passion to every class,
-        helping students grow in skill, confidence, and discipline.
-      </p>
-    </div>
-
-    <!-- Teacher 1 -->
-    <div class="feature-grid teacher-feature-grid">
-      <div class="feature-image-card teacher-feature-image">
-        <img src="master lee.jpg" alt="Grand Master Jin H.Lee" />
-      </div>
-
-      <div class="feature-copy-card">
-  <p class="eyebrow left-eyebrow">Grand Master</p>
-  <h2>Grand Master Lee</h2>
-  <p>
-    Grand Master Lee is a highly accomplished Taekwondo practitioner and instructor
-    with 39 years of experience in teaching, coaching, refereeing, and competition.
-    As a 7th Dan Black Belt, Korean National Champion, and International Master / Referee,
-    he brings world-class knowledge and leadership to every student. His lifelong
-    dedication to Taekwondo has helped shape strong athletes, disciplined students,
-    and champions at both the state and national level.
-  </p>
-
-  <ul class="check-list">
-    <li>7th Dan Black Belt - WTF</li>
-    <li>39 years of Taekwondo experience</li>
-    <li>International Master / Referee</li>
-    <li>Korean National Champion</li>
-    <li>Kyung Hee University graduate in Physical Education and Taekwondo</li>
-    <li>Recipient of major national and international Taekwondo honors</li>
-    <li>50 students qualified for the Junior California State Team</li>
-    <li>2 students became Junior National Champions</li>
-    <li>1999 USA National Team Coach</li>
-  </ul>
-
-  <a class="btn btn-primary" href="https://www.youtube.com/watch?v=v4C84I9bK8o">View Highlight Reel</a>
-</div>
-
- <!-- Teacher 2-->
-    <div class="feature-grid teacher-feature-grid">
-      <div class="feature-image-card teacher-feature-image">
-        <img src="hector.jpg" alt="Master Hector Arellano" />
-      </div>
-
-      <div class="feature-copy-card">
-        <p class="eyebrow left-eyebrow">Master</p>
-        <h2>Hector Arellano</h2>
-        <p>
-          <p>
-  Master Hector is a 6th Degree Black Belt with years of dedication, leadership, and
-  experience in Taekwondo. His background includes involvement with the Taekwondo Black Belt
-  Brotherhood and Sorority as well as the Philippine Taekwondo Association. He is committed
-  to helping students build strong technique, discipline, confidence, and respect through
-  focused training in a positive and supportive environment.
-</p>
-        </p>
-
-        <a class="btn btn-primary" href="https://www.youtube.com/watch?v=3-QNGP22IAQ">View Highlight Reel</a>
-      </div>
-    </div>
-
-    <!-- Special Offer -->
-    <section class="section section-offer" id="special-offer">
       <div class="container feature-grid">
         <div class="feature-image-card">
-          <img src="tkdoffer3.jpg" alt="30th anniversary special offer" />
+          <img src="BC3.jpg" alt="Ultimate TaeKwonDo Academy group photo" />
         </div>
+        <div class="feature-copy-card">
+          <p class="eyebrow left-eyebrow">Welcome To The Academy</p>
+          <h2>Martial Arts Training With Strong Values</h2>
+          <p>
+            We believe great martial arts training goes beyond kicks and forms. Every class is designed to
+            help students become more focused, respectful, and confident while improving technique,
+            athleticism, and self-control.
+          </p>
+          <ul class="check-list">
+            <li>Family-oriented school with a supportive atmosphere</li>
+            <li>Structured classes for beginners, intermediate students, and advanced students</li>
+            <li>Instruction that supports both recreational growth and competitive goals</li>
+            <li>Teachers who care about character on and off the mat</li>
+          </ul>
+          <div class="contact-actions">
+            <a class="btn btn-primary" href="teachers.html">Meet The Teachers</a>
+            <a class="btn btn-outline" href="student-hub.html">Visit Student Hub</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section class="section section-soft" id="special-offer">
+      <div class="container feature-grid">
+        <div class="feature-image-card">
+          <img src="tkdoffer3.jpg" alt="30th anniversary special offer for new students" />
+        </div>
         <div class="feature-copy-card">
           <p class="eyebrow left-eyebrow">Special Offer</p>
           <h2>Simple Intro Offers For New Students</h2>
           <p>
-    We welcome new students of all ages and experience levels to join our academy.
-    Whether you are looking to build confidence, improve discipline, learn self-defense,
-    or grow in competition, our programs are designed to help you succeed in a positive
-    and supportive environment.
-  </p>
-
-  <ul class="check-list">
-    <li>Beginner-friendly classes for kids, teens, and adults</li>
-    <li>Structured training focused on discipline, confidence, and technique</li>
-    <li>Supportive instruction for both recreational and competitive students</li>
-  </ul>
-
-  <a class="btn btn-primary" href="#contact">Ask About Enrollment</a>
-</div>
+            Whether you want to build confidence, improve focus, learn self-defense, or train for
+            competition, our classes are designed to help new students feel welcome and successful from day one.
+          </p>
+          <ul class="check-list">
+            <li>Beginner-friendly classes for kids, teens, and adults</li>
+            <li>Structured instruction focused on discipline and technique</li>
+            <li>Positive atmosphere with clear coaching and strong fundamentals</li>
+          </ul>
+          <a class="btn btn-primary" href="trial.html">Claim Your Free Class</a>
+        </div>
       </div>
     </section>
 
-
-    <!-- Programs -->
     <section class="section section-dark" id="programs">
       <div class="container">
         <div class="section-heading center-text">
           <p class="eyebrow eyebrow-light">Programs</p>
-          <h2>Why Families Choose Ultimate Taekwondo</h2>
+          <h2>Why Families Choose Ultimate TaeKwonDo</h2>
           <p class="section-subtitle">
-            Strong teaching, family values, and an environment that helps students grow.
+            Strong teaching, family values, and an environment that helps students grow with confidence.
           </p>
         </div>
 
@@ -239,272 +190,217 @@
           </article>
           <article class="info-card">
             <h3>Competition Experience</h3>
-            <p>Students can prepare for sparring, forms, demonstrations, and tournament events.</p>
+            <p>Students can prepare for sparring, forms, breaking, and tournament events.</p>
           </article>
           <article class="info-card">
             <h3>Family Atmosphere</h3>
-            <p>Parents, kids, teens, and adults all have a place in the school community.</p>
+            <p>Parents, kids, teens, and adults all have a place in the academy community.</p>
           </article>
           <article class="info-card">
             <h3>Experienced Instruction</h3>
-            <p>Train with black belt leadership focused on technique, safety, and growth.</p>
+            <p>Train with black belt leadership focused on safety, growth, and strong technique.</p>
           </article>
           <article class="info-card">
-            <h3>Confidence On And Off The Mat</h3>
-            <p>Every class is built to improve skills, discipline, and personal pride.</p>
+            <h3>Confidence Beyond The Mat</h3>
+            <p>Every class is built to improve skills, discipline, and pride in steady progress.</p>
           </article>
         </div>
       </div>
     </section>
 
-    <!-- Schedule -->
-    <section class="section section-offer" id="schedule">
-      <div class="container feature-grid">
-        <div class="feature-image-card">
-          <img src="2026 class.jpg" alt="Ultimate TaeKwonDo Academy class schedule" />
-        </div>
-
-        <div class="feature-copy-card">
-          <p class="eyebrow left-eyebrow">Class Schedule</p>
-          <h2>Weekly Training Schedule</h2>
-          <p>
-            Our class schedule is designed to provide structured training for students of all ages
-            and experience levels. From beginner classes to advanced instruction, each session helps
-            students build confidence, discipline, and strong TaeKwonDo fundamentals in a positive,
-            family-friendly environment.
-          </p>
-
-
-          <a class="btn btn-primary" href="#contact">Ask About Enrollment</a>
-        </div>
-      </div>
-    </section>
-
-    <!-- Gallery -->
-    <section class="section section-light" id="gallery">
+    <section class="section section-light schedule-showcase" id="schedule-preview">
       <div class="container">
         <div class="section-heading center-text">
-          <p class="eyebrow">Gallery</p>
-          <h2>Photos From The Academy</h2>
+          <p class="eyebrow">Training Information</p>
+          <h2>Schedule, Calendar, And Student Planning</h2>
+          <p class="section-subtitle">
+            Quick access to the full class schedule, beginner schedule, and academy calendar.
+          </p>
         </div>
 
-        <div class="gallery-grid" id="galleryGrid">
-          <figure class="gallery-card gallery-card-large">
-            <img src="Testing3.jpg" alt="Board breaking demonstration" />
-          </figure>
-          <figure class="gallery-card">
-            <img src="Testing4.jpg" alt="Students lined up in front of the instructor" />
-          </figure>
-          <figure class="gallery-card">
-            <img src="Testing5.jpg" alt="Families and students gathered for class" />
-          </figure>
-          <figure class="gallery-card">
-            <img src="Testing2.jpg" alt="Student performing a kick during training" />
-          </figure>
-          <figure class="gallery-card">
-            <img src="BC1.jpg" alt="Group photo" />
-          </figure>
-          <figure class="gallery-card">
-            <img src="BC2.jpg" alt="Group photo 2" />
-          </figure>
-          <figure class="gallery-card">
-            <img src="BC3.jpg" alt="Group photo 3" />
-          </figure>
-          <figure class="gallery-card">
-            <img src="anniversary-01-group-stage-trophy.jpg" alt="Anniversary group photo 1" />
-          </figure>
-          <figure class="gallery-card">
-            <img src="anniversary-02-cake-cutting-closeup.jpg" alt="Cake cutting close-up" />
-          </figure>
-          <figure class="gallery-card">
-            <img src="anniversary-03-cake-cutting-group.jpg" alt="Cake cutting group photo" />
-          </figure>
-          <figure class="gallery-card">
-            <img src="anniversary-04-cake-cutting-side-angle.jpg" alt="Cake cutting side angle" />
-          </figure>
-          <figure class="gallery-card">
-            <img src="anniversary-05-frosting-fun-boys.jpg" alt="Frosting fun photo" />
-          </figure>
-          <figure class="gallery-card">
-            <img src="anniversary-06-frosting-fun-group.jpg" alt="Frosting fun group" />
-          </figure>
-          <figure class="gallery-card">
-            <img src="anniversary-07-students-with-frosting.jpg" alt="Students with frosting" />
-          </figure>
-          <figure class="gallery-card">
-            <img src="anniversary-08-frosting-blue-uniform.jpg" alt="Blue uniform frosting photo" />
-          </figure>
-          <figure class="gallery-card">
-            <img src="anniversary-09-group-photo-dojo.jpg" alt="Dojo group photo" />
-          </figure>
-          <figure class="gallery-card">
-            <img src="anniversary-10-group-fighting-pose.jpg" alt="Group fighting pose" />
-          </figure>
-          <figure class="gallery-card">
-            <img src="anniversary-11-belt-ceremony-girl-bow.jpg" alt="Belt ceremony girl bow" />
-          </figure>
-          <figure class="gallery-card">
-            <img src="anniversary-12-belt-ceremony-boy-bow.jpg" alt="Belt ceremony boy bow" />
-          </figure>
-          <figure class="gallery-card">
-            <img src="anniversary-13-belt-ceremony-white-uniform-bow.jpg" alt="White uniform bow ceremony" />
-          </figure>
-          <figure class="gallery-card">
-            <img src="anniversary-14-belt-ceremony-rise.jpg" alt="Belt ceremony rise" />
-          </figure>
-          <figure class="gallery-card">
-            <img src="anniversary-15-awards-group-trophies.jpg" alt="Awards group with trophies" />
-          </figure>
-          <figure class="gallery-card">
-            <img src="anniversary-16-family-stage-trophy-boy.jpg" alt="Family stage trophy photo" />
-          </figure>
-          <figure class="gallery-card">
-            <img src="anniversary-17-family-stage-trophy-girl.jpg" alt="Family stage trophy girl" />
-          </figure>
-          <figure class="gallery-card">
-            <img src="anniversary-18-family-group-stage-trophy.jpg" alt="Family group stage trophy" />
-          </figure>
-          <figure class="gallery-card">
-            <img src="anniversary-19-brick-break-prep.jpg" alt="Brick break preparation" />
-          </figure>
-          <figure class="gallery-card">
-            <img src="california open.jpg" alt="California Open" />
-          </figure>
-          <figure class="gallery-card">
-            <img src="chuck norris.jpg" alt="Chuck Norris" />
-          </figure>
-          <figure class="gallery-card">
-            <img src="utkd.jpg" alt="Ultimate Taekwondo Academy" />
-          </figure>
-          <figure class="gallery-card">
-            <img src="scissors.jpg" alt="Scissors kick" />
-          </figure>
+        <div class="schedule-cards">
+          <article class="schedule-card">
+            <div class="schedule-preview">
+              <img src="utkda-calendar-2026.jpg" alt="2026 academy event calendar preview" />
+            </div>
+            <div class="schedule-content">
+              <p class="schedule-tag">Academy Calendar</p>
+              <h3>Important Dates And School Events</h3>
+              <p>See testing dates, ceremonies, holiday closures, tournaments, and special academy events.</p>
+              <div class="schedule-actions">
+                <a class="btn btn-primary" href="utkda-calendar-2026.pdf">Open Calendar PDF</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="schedule-card">
+            <div class="schedule-preview">
+              <img src="2026 class.jpg" alt="2026 in-person class schedule preview" />
+            </div>
+            <div class="schedule-content">
+              <p class="schedule-tag">Main Schedule</p>
+              <h3>Weekly Class Times</h3>
+              <p>PeeWees, beginners, regular classes, adults, and special training blocks all in one place.</p>
+              <div class="schedule-actions">
+                <a class="btn btn-primary" href="2026 Class Schedule.pdf">Open Full Schedule</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="schedule-card">
+            <div class="schedule-preview">
+              <img src="beginner class.jpg" alt="2026 beginner class schedule preview" />
+            </div>
+            <div class="schedule-content">
+              <p class="schedule-tag">Beginner Schedule</p>
+              <h3>Easy Start For New Students</h3>
+              <p>A simple schedule view for new families and students looking for beginner-friendly class times.</p>
+              <div class="schedule-actions">
+                <a class="btn btn-primary" href="2026 Beginner Class Schedule.pdf">Open Beginner Schedule</a>
+              </div>
+            </div>
+          </article>
         </div>
       </div>
     </section>
 
-    <!-- Events -->
-    <section class="section section-news" id="events">
+
+    <section class="section section-light" id="events">
       <div class="container">
         <div class="section-heading center-text">
           <p class="eyebrow">Upcoming Events</p>
           <h2>School News And Important Dates</h2>
           <p class="section-subtitle">
-            Keep this section updated so parents and students can quickly see what is coming up.
+            Keep students and families up to date with new announcements, reminders, and event information.
           </p>
         </div>
 
-        <div class="news-grid" id="newsGrid">
+        <div class="news-grid" data-news-grid data-news-limit="3">
           <article class="news-card featured-news-card">
             <p class="news-date">Now Enrolling</p>
             <h3>Free Trial Classes Available</h3>
-            <p>
-              Invite new students to try a class, meet the instructors, and experience the academy.
-            </p>
-            <a href="#contact" class="text-link">Ask About A Trial →</a>
+            <p>Invite new students to try a class, meet the instructors, and experience the academy.</p>
+            <a class="text-link" href="trial.html">Ask About A Trial →</a>
           </article>
 
           <article class="news-card">
-            <p class="news-date">3-13-2026</p>
-            <h3>Upcoming Belt Test</h3>
-            <p>
-              March 15th is the next belt test. Make sure to review the requirements and practice your forms!
-            </p>
+            <p class="news-date">Upcoming</p>
+            <h3>Academy Calendar Available</h3>
+            <p>View testing dates, special events, ceremony days, and school closures in one place.</p>
           </article>
 
           <article class="news-card">
-            <p class="news-date">3-16-2026</p>
-            <h3>Picture Day</h3>
-            <p>
-              Don't forget to dress in your uniform and be ready for photos on March 31st. Capture memories of your progress and achievements!
-            </p>
+            <p class="news-date">Students</p>
+            <h3>Check Uniform And Gear</h3>
+            <p>Arrive ready for class with your uniform, belt, water bottle, and any required sparring equipment.</p>
           </article>
         </div>
       </div>
     </section>
 
-    <!-- Contact -->
-    <section class="section section-contact" id="contact">
+    <section class="section section-light" id="contact">
       <div class="container contact-grid">
         <div class="contact-image-card">
-          <img src="BC3.jpg" alt="Students at the academy" />
+          <img src="utkd.jpg" alt="Students and instructors at Ultimate TaeKwonDo Academy" />
         </div>
 
         <div class="contact-copy-card">
           <p class="eyebrow left-eyebrow">Contact</p>
           <h2>Ready To Visit The School?</h2>
           <p>
-            We’d love to welcome you to Ultimate TaeKwonDo Academy.
-            Whether you are looking for classes for your child, teen, or yourself, our team is here to help you get started.
-            Give us a call, send us an email, or stop by the school to learn more about our programs and current offers.
+            We would love to help you get started. Whether you are looking for classes for your child,
+            teen, or yourself, our team is here to answer questions and help you find the right class.
           </p>
 
           <div class="contact-details">
-            <p><strong>Phone:</strong> 818-567-1234</p>
-            <p><strong>Email:</strong> UltimateBurbank@gmail.com</p>
+            <p><strong>Phone:</strong> <a class="text-link" href="tel:8185671234">818-567-1234</a></p>
+            <p><strong>Email:</strong> <a class="text-link" href="mailto:UltimateBurbank@gmail.com">UltimateBurbank@gmail.com</a></p>
             <p><strong>Address:</strong> 335 N San Fernando Blvd, Burbank, CA 91502</p>
-            <a href="trial.html" target="_blank" rel="noopener" class="btn btn-primary">
-                Start Free Trial Form
-          </a>
+          </div>
+
+          <ul class="inline-list">
+            <li>Free trial available</li>
+            <li>Beginner friendly</li>
+            <li>Family atmosphere</li>
+          </ul>
+
+          <div class="contact-actions" style="margin-top: 1.5rem;">
+            <a class="btn btn-primary btn-large" href="trial.html">Start Free Trial Form</a>
+            <a class="btn btn-outline btn-large" href="schedule.html">Open Schedule</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft">
+      <div class="container">
+        <div class="cta-banner">
+          <div class="cta-banner-grid">
+            <div>
+              <p class="eyebrow eyebrow-light">Take The First Step</p>
+              <h3 style="font-size: 1.8rem; margin-bottom: 0.45rem;">Come train with us in Burbank.</h3>
+              <p>Start with a free class and see the academy environment for yourself.</p>
+            </div>
+            <a class="btn btn-primary btn-large" href="trial.html">Book A Free Class</a>
           </div>
         </div>
       </div>
     </section>
   </main>
-
   <footer class="site-footer">
     <div class="container footer-grid">
       <div>
-        <a class="footer-brand" href="#top">
+        <a class="footer-brand" href="index.html">
           <img src="utkdlogo.png" alt="Ultimate TaeKwonDo Academy logo" />
           <span>Ultimate TaeKwonDo Academy</span>
         </a>
         <p class="footer-text">
-          Building discipline, confidence, and strong fundamentals in Burbank.
+          Building discipline, confidence, respect, and strong Taekwondo fundamentals for students and families in Burbank.
         </p>
       </div>
 
       <div>
         <h3 class="footer-title">Quick Links</h3>
         <ul class="footer-list">
-          <li><a href="#about">About</a></li>
-          <li><a href="#programs">Programs</a></li>
-          <li><a href="#schedule">Schedule</a></li>
-          <li><a href="#gallery">Gallery</a></li>
-          <li><a href="#events">Events</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="teachers.html">Teachers</a></li>
+          <li><a href="schedule.html">Schedule</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="student-hub.html">Student Hub</a></li>
+          <li><a href="trial.html">Free Trial</a></li>
         </ul>
       </div>
 
       <div>
         <h3 class="footer-title">Contact</h3>
-        <ul class="footer-list footer-contact-list">
-          <li>818-567-1234</li>
-          <li>UltimateBurbank@gmail.com</li>
+        <ul class="footer-list">
+          <li><a href="tel:8185671234">818-567-1234</a></li>
+          <li><a href="mailto:UltimateBurbank@gmail.com">UltimateBurbank@gmail.com</a></li>
           <li>335 N San Fernando Blvd, Burbank, CA 91502</li>
         </ul>
       </div>
     </div>
     <div class="container footer-admin-row">
+      <span>&copy; Ultimate TaeKwonDo Academy</span>
       <a class="footer-admin-link" href="admin/">Owner Login</a>
     </div>
   </footer>
-
-  <!-- Lightbox -->
   <div class="lightbox" id="lightbox" aria-hidden="true">
     <div class="lightbox-backdrop"></div>
 
     <div class="lightbox-content" role="dialog" aria-modal="true" aria-label="Image preview">
-      <button class="lightbox-close" id="lightboxClose" aria-label="Close image preview">
-        &times;
-      </button>
+      <button class="lightbox-close" id="lightboxClose" aria-label="Close image preview">&times;</button>
+      <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Previous image">&#8249;</button>
+      <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Next image">&#8250;</button>
 
       <img id="lightboxImage" src="" alt="" />
 
-      <div class="lightbox-actions">
-        <a id="lightboxDownload" class="btn btn-primary" href="" download>
-          Download Image
-        </a>
+      <div class="lightbox-footer">
+        <div class="lightbox-meta">
+          <p class="lightbox-caption" id="lightboxCaption">Gallery photo</p>
+          <p class="lightbox-counter" id="lightboxCounter">1 of 1</p>
+        </div>
+        <a id="lightboxDownload" class="lightbox-download" href="" download>Download Image</a>
       </div>
     </div>
   </div>
