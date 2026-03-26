@@ -9,9 +9,10 @@
       "linkUrl": "trial.html"
     },
     {
-      "label": "3-16-2026",
-      "title": "Picture Day",
-      "summary": "Don't forget to dress in your uniform and be ready for photos on March 31st. Capture memories of your progress and achievements!"
+      "featured": false,
+      "label": "pic",
+      "title": "day of pics",
+      "summary": "pics day"
     }
   ],
   "gallery": [
