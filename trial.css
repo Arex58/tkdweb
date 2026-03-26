@@ -1,0 +1,160 @@
+.trial-page {
+  background: #8fd0e0;
+  padding: 40px 16px 80px;
+}
+
+.trial-container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #eaf5f8;
+  border-radius: 18px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+  overflow: hidden;
+}
+
+.trial-header {
+  background: linear-gradient(135deg, #c91f25, #8d1116);
+  color: white;
+  text-align: center;
+  padding: 32px 20px;
+}
+
+.trial-header h1 {
+  margin: 0 0 10px;
+  font-size: 2rem;
+}
+
+.trial-header p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.trial-form {
+  padding: 32px 24px 40px;
+}
+
+.trial-form h2 {
+  margin-top: 30px;
+  margin-bottom: 16px;
+  color: #0f2138;
+  font-size: 1.35rem;
+  border-bottom: 2px solid #cfe3ea;
+  padding-bottom: 8px;
+}
+
+.form-grid {
+  display: grid;
+  gap: 18px;
+}
+
+.two-col {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.three-col {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #18324d;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  padding: 14px 12px;
+  border: 1px solid #9fc4d0;
+  border-radius: 10px;
+  font-size: 1rem;
+  background: white;
+}
+
+.checkbox-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px 24px;
+  margin-top: 10px;
+}
+
+.checkbox-grid label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #18324d;
+}
+
+.waiver-box {
+  background: #f7fbfc;
+  border: 1px solid #c8dde5;
+  border-radius: 12px;
+  padding: 16px;
+  line-height: 1.6;
+  color: #234;
+}
+
+.signature-wrap {
+  margin-top: 12px;
+}
+
+#signaturePad {
+  width: 100%;
+  height: 220px;
+  background: white;
+  border: 2px dashed #8eb7c5;
+  border-radius: 12px;
+  display: block;
+}
+
+.secondary-btn {
+  margin-top: 10px;
+  background: #7aaec0;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.submit-wrap {
+  text-align: center;
+  margin-top: 32px;
+}
+
+.submit-btn {
+  background: linear-gradient(135deg, #2e74d8, #1f5db6);
+  color: white;
+  border: none;
+  padding: 16px 42px;
+  font-size: 1.05rem;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.submit-btn:hover,
+.secondary-btn:hover {
+  opacity: 0.92;
+}
+
+@media (max-width: 768px) {
+  .two-col,
+  .three-col,
+  .checkbox-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .trial-form {
+    padding: 24px 18px 32px;
+  }
+
+  .trial-header h1 {
+    font-size: 1.6rem;
+  }
+}
