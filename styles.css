@@ -904,6 +904,180 @@ h3 {
   margin-bottom: 0;
 }
 
+.section-tight-top {
+  padding-top: 0;
+}
+
+.album-card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.2rem;
+}
+
+.album-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0;
+  text-align: left;
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  background: var(--white);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.album-card:hover,
+.album-card:focus-visible,
+.album-card.is-active {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+  border-color: rgba(217, 43, 53, 0.28);
+}
+
+.album-card:focus-visible {
+  outline: 3px solid rgba(217, 43, 53, 0.18);
+  outline-offset: 3px;
+}
+
+.album-card-image {
+  position: relative;
+  min-height: 240px;
+  background: #dde3ee;
+  overflow: hidden;
+}
+
+.album-card-image img {
+  width: 100%;
+  height: 100%;
+  min-height: 240px;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.album-card:hover .album-card-image img,
+.album-card:focus-visible .album-card-image img,
+.album-card.is-active .album-card-image img {
+  transform: scale(1.05);
+}
+
+.album-card-content {
+  display: grid;
+  gap: 0.75rem;
+  padding: 1.25rem;
+}
+
+.album-card-kicker {
+  margin: 0;
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--red);
+}
+
+.album-card-content h3 {
+  margin: 0;
+}
+
+.album-card-content p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.album-card-action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  min-height: 42px;
+  padding: 0.75rem 1rem;
+  border-radius: 999px;
+  background: rgba(16, 23, 35, 0.06);
+  color: var(--navy);
+  font-weight: 700;
+}
+
+.album-summary-panel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+  padding: 1.4rem 1.5rem;
+  border-radius: 24px;
+  background: linear-gradient(135deg, rgba(16, 23, 35, 0.98), rgba(28, 36, 49, 0.94));
+  color: var(--white);
+  box-shadow: var(--shadow);
+}
+
+.album-summary-panel h2,
+.album-summary-panel .section-subtitle,
+.album-summary-panel .eyebrow {
+  color: inherit;
+}
+
+.album-summary-panel .section-subtitle {
+  max-width: 760px;
+  opacity: 0.88;
+}
+
+.album-summary-meta {
+  flex-shrink: 0;
+}
+
+.album-count-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 0.85rem 1.2rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.album-filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 1.4rem;
+}
+
+.album-filter-pill {
+  min-height: 46px;
+  padding: 0.8rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--white);
+  color: var(--navy);
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.2s ease, border-color 0.2s ease, background-color 0.2s ease, color 0.2s ease;
+}
+
+.album-filter-pill:hover,
+.album-filter-pill:focus-visible,
+.album-filter-pill.is-active {
+  transform: translateY(-2px);
+  border-color: transparent;
+  background: var(--red);
+  color: var(--white);
+}
+
+.album-empty-note {
+  margin: 0;
+  padding: 1.1rem 1.2rem;
+  border-radius: 18px;
+  border: 1px dashed var(--border);
+  color: var(--muted);
+  background: var(--white);
+}
+
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -1443,7 +1617,8 @@ body.lightbox-open {
   .teacher-grid,
   .news-grid,
   .gallery-grid,
-  .trial-mini-card-grid {
+  .trial-mini-card-grid,
+  .album-card-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -1479,8 +1654,14 @@ body.lightbox-open {
   .teacher-grid,
   .news-grid,
   .gallery-grid,
-  .trial-mini-card-grid {
+  .trial-mini-card-grid,
+  .album-card-grid {
     grid-template-columns: 1fr;
+  }
+
+  .album-summary-panel {
+    flex-direction: column;
+    align-items: flex-start;
   }
 
   .gallery-card-large {
@@ -1620,12 +1801,14 @@ body.lightbox-open {
   }
 
   .page-pill-row,
-  .inline-list {
+  .inline-list,
+  .album-filter-row {
     gap: 0.55rem;
   }
 
   .page-pill,
-  .inline-list li {
+  .inline-list li,
+  .album-filter-pill {
     width: 100%;
     justify-content: center;
   }
