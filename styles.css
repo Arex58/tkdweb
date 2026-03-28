@@ -730,6 +730,7 @@ h3 {
   object-fit: contain;
   object-position: center;
 }
+
 .teacher-card-copy {
   display: flex;
   flex-direction: column;
